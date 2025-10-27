@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAKES Links</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #000;
+      color: #e60000;
+      text-align: center;
+    }
+
+    .header {
+      font-size: 1.2rem;
+      color: #e60000;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .link-button {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      margin: 15px auto;
+      padding: 20px;
+      background-color: #000;
+      color: #e60000;
+      text-decoration: none;
+      font-size: 1.3rem;
+      border: none;
+      border-radius: 0;
+      transition: transform 0.2s, color 0.2s;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .link-button:hover {
+      transform: scale(1.05);
+      color: #ff1a1a;
+    }
+
+    .slogan {
+      margin-top: 40px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      color: #e60000;
+      text-align: center;
+    }
+
+    .qr-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .qr-section img {
+      width: 140px;
+      height: 140px;
+      border: 2px solid #e60000;
+      padding: 10px;
+    }
+
+    .qr-section p {
+      color: #e60000;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 500px) {
+      .link-button { font-size: 1.1rem; padding: 16px; }
+      .header { font-size: 1rem; margin-bottom: 30px; }
+      .slogan { font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="RAKES Logo" class="logo">
+  <div class="header">₭₳$H ₹U££$ £V£₹Y₸HI₦G ₳₹OU₦D U$</div>
+
+  <a class="link-button" href="https://raksrakes.com/" target="_blank">raksrakes.com</a>
+  <a class="link-button" href="https://www.instagram.com/rakesraks.co/" target="_blank">@rakesraks.co</a>
+  <a class="link-button" href="https://www.tiktok.com/@rakesraks" target="_blank">TikTok</a>
+  <a class="link-button" href="mailto:rakesraks@gmail.com">Email Us</a>
+
+  <div class="slogan">RISE AND KONQUER</div>
+
+  <div class="qr-section">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://raksrakes.com/&size=150x150" alt="RAKES QR Code">
+    <p>SCAN ME</p>
+  </div>
+</body>
+</html>
